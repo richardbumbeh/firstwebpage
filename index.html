@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BUMBEH AUDIO PLAYER </title>
+    <!-- Links -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+ <header>
+  <!-- Home section -->
+     <section id="home">
+     <nav>
+         <div class = "logo">Chart B</div>
+         <div class = "menu">
+             <a href = "#home" >Home</a>
+             <a href = "#player" >My Songs </a>
+             <a href = "#about ">About </a>
+             <a href = "#contact">Contact </a>
+             <a href = "https://www.youtube.com/channel/UCNw7uE-iH6or-GFK228W4qw" target="_blank">YouTube </a>
+
+         </div>
+
+         <!--Home Section  -->
+     </nav>
+     <div class="h-text animate__animated animate__zoomIn">
+         <h1>Hello! I'm Richard <br>
+        a  raper</h1>
+        <p>
+            I'm glad you're here ! Check out my website And Listen to My Songs.
+        </p>
+        <br>
+     </div>
+     </div>
+    </section>
+ </header>  
+
+<br>
+
+  <!-- Audio player section -->
+  <section class="player" id="player"></section>
+  <div class="player">
+    <div class="wrapper">
+        <div class="details">
+            <div class="now-playing">PLAYING x OF y</div>
+            <div class="track-art"></div>
+            <div class="track-name">Track Name</div>
+            <div class="track-artist">Track Artist</div>
+        </div>
+
+        <div class="slider_container">
+            <div class="current-time">00:00</div>
+             <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+             <div class="total-duration">00:00</div>
+        </div>
+
+        <div class="slider_container">
+            <i class="fa fa-volume-down"></i>
+             <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+             <i class="fa fa-volume-up"></i>
+        </div>
+
+        <div class="buttons">
+            <div class="random-track" onclick="randomTrack()">
+                <i class="fas fa-random fa-2x" title="random"></i>
+            </div>
+            <div class="prev-track" onclick="prevTrack()">
+                 <i class="fa fa-step-backward fa-2x"></i>
+             </div>
+             <div class="playpause-track" onclick="playpauseTrack()">
+                 <i class="fa fa-play-circle fa-5x"></i>
+             </div>
+             <div class="next-track" onclick="nextTrack()">
+                 <i class="fa fa-step-forward fa-2x"></i>
+             </div>
+             <div class="repeat-track" onclick="repeatTrack()">
+                 <i class="fa fa-repeat fa-2x" title="repeat"></i>
+             </div>
+        </div>
+
+         <div id="wave">
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+             <span class="stroke"></span>
+         </div>  
+    </div>
+</div>
+<br>
+<br>
+<br>
+<a href="./KEEP LIBERIA CLEAN (Official Video).mp4"><h1><center>See Video </center></h1></a>
+<section class="about" id="about">
+  <center><h2 class="section_title">About Me </h2></center>
+  <h1 class="subTitle">RICHARD SAAH BUMBE</h1> 
+    <h1 class="on">Alos Known As: Chart B</h1>
+    <h1 class="jj">Record label: BUMBEH MUISC GROUP</h1>
+    <h1 class="nn">Genre: Afrobeats, Hipco & Hip-hop.</h1>
+    <h1 class="mm">Chart B Biography and  Net Worth:</h1>
+    <h2 class="kk">Born on 29 November 1999 in Lofa, faya, Liberia. Chart B is a Liberian Raper and Songwriter. He started recording music at the age of 14 and managed to release a collaborative album with some artists and  a couple of his church friends formed. </h2>
+
+
+
+
+       
+
+<!-- contact section -->
+<center><h1 class="headings"><u>Contact Me </u></h1></center>
+<section id="contact">
+    <p>Email:richardbumbeh0@gmail.com</p>
+        <a href="https://twitter.com/BumbehRichard1?t=2BCco6J8CPxVjpBA4Pd5g&s=08">Twitter</a>
+        <a href="https://www.facebook.com/profile.php?id=100064492761010">Facebook</a>
+        <a href="htts://www.Instagram.com/Richard Bumbeh">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCNw7uE-iH6or-GFK228W4qw" target="_blank">YouTube</a>
+        <a href="https://www.whatsapp.com/video/gHKqjmNuDCB3M1Za7r9L40">WhatsAPP</a>
+    </div>
+      
+
+
+</section>
+
+</body>
+</html>
